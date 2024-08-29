@@ -1,11 +1,11 @@
-public class SleepIn {
-    public static boolean sleepIn(boolean weekday, boolean vacation) {
+public class Warmup_sleepIn {
+    public static boolean Warmup_sleepIn(boolean weekday, boolean vacation) {
         return !weekday || vacation;
     }
 
     public static void main(String[] args) {
-        System.out.println(sleepIn(false, false)); // true
-        System.out.println(sleepIn(true, false)); // false
-        System.out.println(sleepIn(false, true)); // true
+        System.out.println(Warmup_sleepIn(false, false)); 
+        System.out.println(Warmup_sleepIn(true, false)); 
+        System.out.println(Warmup_sleepIn(false, true)); 
     }
 }
