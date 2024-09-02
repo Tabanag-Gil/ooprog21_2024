@@ -14,7 +14,7 @@ import java.util.Scanner;
       if(Min < 60){
              System.out.printf("\nRental Cost:$40");    
       }else {
-        int Rent = ( Min / 60 * 40) + ( Min % 60 * 1);
+        int Rent = ( Min / 60 * 40) + ( Min % 60);
         System.out.printf("\nTotal Cost:$%d", Rent);
       } 
            
