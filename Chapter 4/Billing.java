@@ -12,20 +12,20 @@ public class billin {
    public static void computeBill(double price){
     
         double Total = price * 1.08;
-        System.out.printf("The total price of the bill is: $%.10f\n", Total);
+        System.out.printf("The total price of the bill is: $%.15f\n", Total);
    
    }
   
    public static void computeBill(double price, int quantity){
     
      double Total = price * quantity * 1.08;
-     System.out.println("The total price of the bill is: $"+ Total);
+     System.out.printf("The total price of the bill is: $%.15f", Total);
 
    }
    public static void computeBill(double price, int quantity, int coupon){
      
      double Total = (price * quantity - coupon) * 1.08;
-     System.out.println("The total price of the bill is: $"+ Total);
+     System.out.printf("The total price of the bill is: $%.3", Total);
 
    }
 }
